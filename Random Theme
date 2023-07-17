@@ -1,3 +1,316 @@
+/* Default styles */
+body {
+ <style>
+p{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 100%;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 175%;  
+  color: white;
+}
+  body {
+   background-image: url('https://cdn.discordapp.com/attachments/965328175867498506/965328749522477096/unknown.png');
+}
+.profile {
+    border: 2px solid black;
+   background-image: linear-gradient(90deg, #1D19F6 30%, #FDFFFE 100%); 
+}
+
+.profile .blurbs .heading, .profile .contact .heading, 
+.profile .table-section .heading, .profile .friends .heading,
+.profile h1, DIV.blog-preview > H4
+   {
+   background-image: linear-gradient(90deg, #007014 0%, #007014 35%, #002C63 100%);
+   color: black;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  }
+  .profile .friends .person p
+  {
+    color: white;
+  }
+  .profile .friends .person img:not(.icon), .general-about .profile-pic img
+  {
+    border: 2px solid black;
+  }
+
+.profile .friends, .profile .blurbs, DIV.blog-preview > H4, .profile .url-info,
+.profile h1
+{
+    border: 2px solid black;
+}
+main:before 
+{
+    width: auto;
+    border: 2px solid black;
+    height: 280px;
+    display: block;
+    content: "";
+    background-image: url("https://cdn.discordapp.com/attachments/407220400578101257/965324380706070598/unknown.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+footer {
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+    color: white;
+}
+
+nav .top
+{
+    color: white;
+    border: 2px solid black;
+    background-color: darkblue;
+}
+
+table.details-table,
+DIV.contact > DIV.inner,
+.profile .friends .inner,
+.profile .blurbs .inner
+{
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.profile .url-info
+{
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+}
+
+:root {
+    --darker-blue: white;
+    --lighter-blue: black;
+    --even-lighter-blue: ;
+    --lightest-blue: ;
+    --dark-orange: white;
+    --light-orange: ;
+    --even-lighter-orange: ;
+}
+</style>
+}
+
+
+
+/* Random theme styles */
+body[data-theme="light"] {
+<style>
+p{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 100%;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 175%;  
+  color: white;
+}
+  body {
+   background-image: url('https://cdn.discordapp.com/attachments/965328175867498506/965328749522477096/unknown.png');
+}
+.profile {
+    border: 2px solid black;
+   background-image: linear-gradient(90deg, #1D19F6 30%, #FDFFFE 100%); 
+}
+
+.profile .blurbs .heading, .profile .contact .heading, 
+.profile .table-section .heading, .profile .friends .heading,
+.profile h1, DIV.blog-preview > H4
+   {
+   background-image: linear-gradient(90deg, #007014 0%, #007014 35%, #002C63 100%);
+   color: black;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  }
+  .profile .friends .person p
+  {
+    color: white;
+  }
+  .profile .friends .person img:not(.icon), .general-about .profile-pic img
+  {
+    border: 2px solid black;
+  }
+
+.profile .friends, .profile .blurbs, DIV.blog-preview > H4, .profile .url-info,
+.profile h1
+{
+    border: 2px solid black;
+}
+main:before 
+{
+    width: auto;
+    border: 2px solid black;
+    height: 280px;
+    display: block;
+    content: "";
+    background-image: url("https://cdn.discordapp.com/attachments/407220400578101257/965324380706070598/unknown.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+footer {
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+    color: white;
+}
+
+nav .top
+{
+    color: white;
+    border: 2px solid black;
+    background-color: darkblue;
+}
+
+table.details-table,
+DIV.contact > DIV.inner,
+.profile .friends .inner,
+.profile .blurbs .inner
+{
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.profile .url-info
+{
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+}
+
+:root {
+    --darker-blue: white;
+    --lighter-blue: black;
+    --even-lighter-blue: ;
+    --lightest-blue: ;
+    --dark-orange: white;
+    --light-orange: ;
+    --even-lighter-orange: ;
+}
+
+</style>
+}
+
+
+body[data-theme="dark"] {
+<style>
+p{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 100%;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 175%;  
+  color: white;
+}
+  body {
+   background-image: url('https://i.kym-cdn.com/entries/icons/original/000/039/415/Majin_Sonic.png');
+}
+.profile {
+    border: 2px solid black;
+   background-image: linear-gradient(90deg, #1D19F6 30%, #FDFFFE 100%); 
+}
+
+.profile .blurbs .heading, .profile .contact .heading, 
+.profile .table-section .heading, .profile .friends .heading,
+.profile h1, DIV.blog-preview > H4
+   {
+   background-image: linear-gradient(90deg, #007014 0%, #007014 35%, #002C63 100%);
+   color: black;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  }
+  .profile .friends .person p
+  {
+    color: white;
+  }
+  .profile .friends .person img:not(.icon), .general-about .profile-pic img
+  {
+    border: 2px solid black;
+  }
+
+.profile .friends, .profile .blurbs, DIV.blog-preview > H4, .profile .url-info,
+.profile h1
+{
+    border: 2px solid black;
+}
+main:before 
+{
+    width: auto;
+    border: 2px solid black;
+    height: 280px;
+    display: block;
+    content: "";
+    background-image: url("https://cdn.discordapp.com/attachments/407220400578101257/965324380706070598/unknown.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+footer {
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+    color: white;
+}
+
+nav .top
+{
+    color: white;
+    border: 2px solid black;
+    background-color: darkblue;
+}
+
+table.details-table,
+DIV.contact > DIV.inner,
+.profile .friends .inner,
+.profile .blurbs .inner
+{
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.profile .url-info
+{
+    border: 4px solid rgb(0, 194, 238);
+    background-image: linear-gradient(180deg, #003949 0%, #007590 50%, #00B4D8 100%);
+}
+
+:root {
+    --darker-blue: white;
+    --lighter-blue: black;
+    --even-lighter-blue: ;
+    --lightest-blue: ;
+    --dark-orange: white;
+    --light-orange: ;
+    --even-lighter-orange: ;
+}
+</style>
+
+}
+
 $theme = rand(1, 2); // Randomly select 1 or 2
 
 if ($theme === 1) {
